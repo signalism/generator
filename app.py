@@ -1,6 +1,8 @@
 import streamlit as st
 from generate import STYLES, generate
 
+st.set_page_config(page_title='Signalist Poetry Generator', page_icon=':boom:')
+
 st.title('Signalist Poetry Generator')
 
 style = st.selectbox('Choose poetic style:', [ *STYLES.keys() ])
