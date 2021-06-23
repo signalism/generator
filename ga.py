@@ -4,7 +4,7 @@ import os
 import re
 import streamlit as st
 
-code = '''<script async src="https://www.googletagmanager.com/gtag/js?id=G-87C7JGZCJ2"></script><script>window.dataLayer = window.dataLayer || []; function gtag () { dataLayer.push(arguments); }; gtag('js', new Date()); gtag('config', 'G-87C7JGZCJ2');</script>'''
+code = '''<script async src="https://www.googletagmanager.com/gtag/js?id=G-L8KY40QQTX"></script><script>window.dataLayer = window.dataLayer || []; function gtag () { dataLayer.push(arguments); }; gtag('js', new Date()); gtag('config', 'G-L8KY40QQTX');</script>'''
 
 path = os.path.dirname(st.__file__) + '/static/index.html'
 
