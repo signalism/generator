@@ -10,6 +10,6 @@ path = os.path.dirname(st.__file__) + '/static/index.html'
 
 with open(path, 'r') as file_r:
 	data = file_r.read()
-	if len(re.findall('UA-', data)) == 0:
+	if len(re.findall('G-L8KY40QQTX', data)) == 0:
 		with open(path, 'w') as file_w:
 			file_w.write(re.sub('<head>', '<head>' + code, data))
